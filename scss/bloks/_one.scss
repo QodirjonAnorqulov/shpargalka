@@ -1,0 +1,31 @@
+.one-section{
+    padding: 130px 0;
+    background: rgba(22, 58, 36, 1);
+    &__blok{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        // margin: 0 auto;
+        justify-content: space-between;
+        position: relative;
+        &__left{
+            h2{
+                font-size: 48px;
+                line-height: 65px;
+                font-weight: 600;
+                color: #FBFAF7;
+            }
+            p{
+                font-size: 18px;
+                line-height: 27px;
+                font-weight: 400;
+                color: #FBFAF7;
+            }
+        }
+        &__right{
+            position: absolute;
+            right: -70px;
+        }
+    }
+
+}

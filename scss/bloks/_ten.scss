@@ -1,0 +1,29 @@
+.ten-section{
+    &__blok{
+        padding:66px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &__left{
+            h2{
+                font-size: 48px;
+                line-height: 54px;
+                font-weight: 600;
+                color: #163A24;
+            }
+            p{
+                font-size: 18px;
+                line-height: 27px;
+                font-weight: 400;
+                color: #163A24;
+            }
+            .ebook{
+                background: #198C36;
+                height: 32px;
+                border-radius: 160px;
+                width: 190px;
+                
+            }
+        }
+    }
+}

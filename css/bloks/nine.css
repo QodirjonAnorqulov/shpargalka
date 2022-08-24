@@ -1,0 +1,58 @@
+.nine-section {
+  background: rgb(242, 239, 230);
+}
+
+.nine-section__blok {
+  padding: 114px 0;
+}
+
+.nine-section__blok__left h2 {
+  font-size: 47px;
+  line-height: 54px;
+  text-align: center;
+  font-weight: 600;
+  color: #163A24;
+}
+
+.nine-section__blok__left p {
+  padding: 26px 0;
+  font-size: 18px;
+  text-align: center;
+  color: #163A24;
+}
+
+.nine-section__blok__right {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  position: relative;
+}
+
+.nine-section__blok__right .biiir img {
+  position: absolute;
+  left: 300px;
+  top: 80px;
+}
+
+.nine-section__blok__right .ikkki img {
+  position: absolute;
+  left: 700px;
+  top: 80px;
+}
+
+.nine-section__blok__right .uchchch img {
+  position: absolute;
+  left: 850px;
+  top: 10px;
+}
+
+.nine-section__blok .nine {
+  width: 244px;
+  border-radius: 160px;
+  background: rgb(25, 140, 54);
+  height: 52px;
+  margin-left: 500px;
+} /*# sourceMappingURL=nine.css.map */
+
+/*# sourceMappingURL=nine.css.map */

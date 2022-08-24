@@ -1,0 +1,27 @@
+.two-section{
+    
+
+    &__blok{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 120px ;
+        &__left{
+
+        }
+        &__right{
+            h2{
+                font-size: 48px;
+                line-height: 54px;
+                font-weight: 600;
+                color: #163A24;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+                color: #163A24;
+            }
+        }
+    }
+}

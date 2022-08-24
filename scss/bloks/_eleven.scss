@@ -1,0 +1,46 @@
+.eleven-section{
+    // background: rgba(22, 58, 36, 1);
+    background-image: url("..//");
+    &__blok{
+        &__left{
+            h2{
+                font-size: 48px;
+                line-height: 54px;
+                font-weight: 600;
+                text-align: center;
+                color: #FBFAF7;
+            }
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                text-align: center;
+                color: #FBFAF7;
+            }
+            button{
+                // height: 55px;
+                padding: 10px;
+                background: #FAB5A0;
+                border-radius: 160px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                margin-left: 500px;
+            }
+            &__right{
+                align-items: center;
+                background-color: #FBFAF7;
+                background-color: aqua;
+                // display: flex;
+                .biirr{
+                    img{
+                        justify-content: space-between;
+                        margin-left: 300px;
+                    }
+
+                }
+
+            }
+        }
+    }
+}

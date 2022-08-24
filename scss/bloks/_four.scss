@@ -1,0 +1,18 @@
+.four-section{
+    &__blok{
+        display: inline;
+        &__left{
+            text-align: center;
+            font-size: 36px;
+            margin-top: 130px;
+        }
+        &__right{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 60px;
+            padding: 50px;
+            
+        }
+    }
+}

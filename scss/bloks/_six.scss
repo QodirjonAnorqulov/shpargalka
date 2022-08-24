@@ -1,0 +1,27 @@
+.six-section{
+    background: rgba(242, 239, 230, 1);
+
+    &__blok{
+        padding: 144px 0;
+        &__left{
+           h2{
+               font-weight: 600;
+               font-size: 48px;
+               line-height: 54px;
+               text-align: center;
+               color: #163A24;
+            } 
+            p{
+                padding: 27px;
+                font-size: 18px;
+                line-height: 27px;
+                font-weight: 400;
+                text-align: center;
+                color: #163A24;
+            }
+        }
+        &__right{
+            width: 100%;
+        }
+    }
+}

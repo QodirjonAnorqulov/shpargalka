@@ -1,0 +1,52 @@
+.site-header{
+    padding: 20px 0;
+    background-color:rgba(22, 58, 36, 1);
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(22, 58, 36, 1);
+    &__logo{
+        display: flex;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin: 10px;
+        margin-left: 0;
+    }
+    &__link{
+        text-decoration: none;
+        // margin-left: 20px;
+        color: white;
+    }
+    &__btn{
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        background: rgba(25, 140, 54, 1);
+        color: white ;
+        margin-left: 20px;
+    }
+    &__btn:hover{
+        background-color: rebeccapurple;
+        color: yellow;
+        border-radius: 30px;
+        font-size: large;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500){
+    
+}
